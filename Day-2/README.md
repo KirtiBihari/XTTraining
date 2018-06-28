@@ -1,4 +1,5 @@
 HTML & CSS basics-->
+
     Day-1 : 
             DOCTYPE
             charset
@@ -37,6 +38,6 @@ HTML & CSS basics-->
 
     Day-12 :
             id and class attribute with HTML elements.
-            
+
 
 
