@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+}
+body>h1{
+    color:steelblue;
+}
+body>h5{
+    background-color:black;
+    color: honeydew;
+    padding:4px;
+}
+.content{
+    border: 1px solid #000;
+    width: 100%;
+    padding: 5px;
+}
+.anchorLink{
+    color: blue;
+    font-size: 14px;
+    
+}
+#imgInfo{
+    text-align: center;
+    padding: 4px;
+}
+#info{
+    color:dodgerblue;
+    background-color: lightblue;
+}
+.infoContainer{
+    color: teal;
+    font-size: 14px;
+}
