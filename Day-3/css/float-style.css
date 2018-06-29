@@ -1,0 +1,29 @@
+.warp{
+    width: 80%;
+    min-width: 600px;
+    margin:auto;
+    background-color: lightslategrey;
+}
+.content, aside{
+    height: 600px;
+}
+.content{
+    background-color: gray;
+    float: left;
+    width: 80%;
+   
+}
+aside{
+    float: left;
+    width:18%;
+    background-color: steelblue;
+    padding: 0% 1% 0% 1%;
+}
+aside ul{
+    list-style: none;
+    padding-left:0;
+}
+
+footer{
+    font-size: 15px;
+}

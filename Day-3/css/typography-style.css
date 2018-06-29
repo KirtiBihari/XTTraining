@@ -1,0 +1,11 @@
+h2{
+    font-size:35px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: -5px;
+    color: #666;
+    text-transform: capitalize;
+    text-shadow: 0 2px 0 #fff;
+    font-variant: small-caps;
+}

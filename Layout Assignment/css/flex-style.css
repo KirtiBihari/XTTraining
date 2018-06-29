@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header{
+    background-color: #F7C59F;
+    height: 10vh;
+}
+nav{
+    background-color: #ACFCD9;
+    height: 5vh;
+}
+aside{
+    height: 70vh;
+    background-color: #2A324B;
+    width: 20%;
+}
+main{
+    height: 70vh;
+    background-color: #767B91;
+    width: 60%;
+}
+section{
+    height: 70vh;
+    background-color: #585e73;
+    width: 20%;
+}
+footer{
+    height: 15vh;
+    background-color: #E1E5EE;
+}
+
+@media (max-width:600px){
+    .content{
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+}

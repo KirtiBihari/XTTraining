@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #F7C59F;
+    height: 10vh;
+}
+nav{
+    background-color: #ACFCD9;
+    height: 5vh;
+}
+aside{
+    background-color: #2A324B;
+    height: 70vh;
+    float: left;
+    width: 20%;
+}
+main{
+    background-color: #767B91;
+    height: 70vh;
+    float: left;
+    width: 60%;
+}
+section{
+    background-color: #585e73;
+    height: 70vh;
+    float: left;
+    width: 20%;
+}
+footer{
+    height: 15vh;
+    background-color: #E1E5EE;
+    clear: both;
+}
