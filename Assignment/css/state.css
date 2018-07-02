@@ -1,0 +1,14 @@
+.innercard_default__tags{
+    margin-bottom: 8px;
+
+}
+.innercard_default__title{
+    font: 1.25rem/1.5 "ubuntu-bd",Verdana,Arial,sans-serif;
+    color: #2b0a3d
+}
+.innercard_default__text{
+    color: #000;
+    font: 1rem/1.67 "ubuntu",Verdana,Arial,sans-serif;
+    letter-spacing: .2px;
+    margin: 16px 0 24px;
+}

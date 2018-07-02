@@ -1,0 +1,29 @@
+#carousel {
+    overflow:hidden;
+    position:relative;
+    width:auto;
+  }
+  
+  #carousel ul {
+    -moz-box-orient:horizontal;
+    -ms-box-orient:horizontal;
+    -webkit-box-orient:horizontal;
+    -o-box-orient:horizontal;
+    box-orient:horizontal;
+  
+    display:-moz-box;
+    display:-ms-box;
+    display:-webkit-box;
+    display:-o-box;
+    display:box;
+  
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  
+  #carousel li {
+    height:200px;
+    margin-right:10px;
+    width:200px;
+  }
