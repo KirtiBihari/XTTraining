@@ -211,13 +211,14 @@ img{
         width: 100vw;
         justify-content: space-around;
         flex-wrap: wrap;
+        margin-bottom: 2em;
     }
     .course_image{
         width: 100vw;
     }
     .course_image img{
         width: 80vw;
-        height: 60%;
+        height: 100%;
         margin-left: 10vw;
     }
     
