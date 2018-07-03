@@ -16,6 +16,7 @@ nav .logo span{
     font-weight: bold;
     color: #fafbfd;
     line-height: 2em;
+    font-family: 'Sigmar+One',serif;
 }
 
 nav ul.navlist-desktop{
@@ -56,10 +57,26 @@ nav ul.navlist-desktop li a:hover, .active{
 
 .full-widthcontainer{
     display: flex;
-    background-color: dimgrey;
+    background-color: #02222d;
     width: 100vw;
     height: 40vh;
 
+}
+
+.full-widthcontainer blockquote{
+    font-size: 1.3em;
+    text-shadow: #F3F3F3 2px;
+    color: #ddd;
+    padding:3.5em;
+    font-family: 'Lobster',serif;
+    line-height: 2em;
+}
+.full-widthcontainer button{
+    height: 2.4em;
+    font-size: .7em;
+    border-radius: .6em;
+    font-weight: bold;
+    cursor: pointer;
 }
 .mySlides{
     height: 36vh;
@@ -70,21 +87,24 @@ nav ul.navlist-desktop li a:hover, .active{
 .v-cols{
     display: flex;
     margin-bottom: 1em;
+    background: #a2a2a23b;
 }
 .v-cols-header{
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 98vw;
     font-weight: bold;
-    padding-top: .1em;
+    padding: 1em;
 }
 .card{
+    padding: .2em;
     width: 50%;
     margin: 0.3em;
     color: #0f183c;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #eff6ff;
 }
 
 /* .card img{
@@ -129,7 +149,7 @@ img{
 }
 
 .preview{
-    width: 100%;
+    width: 97%;
     line-height: 1.2em;
 }
 .inner-col-group{
@@ -141,6 +161,9 @@ img{
 .inner-v-cols{
     display: flex;
     height: 27%;
+    background: #02222d;
+    margin: 1%;
+    color: #fff;
 }
 
 
@@ -196,7 +219,13 @@ img{
     font-size: 22px;
 }
 
+
 @media(max-width:768px){
+    .full-widthcontainer blockquote{
+       
+        padding:.3em;
+        
+    }
     .card {
         flex-direction: column;
         width: 100%;
@@ -272,7 +301,13 @@ img{
         background: #14bdee;
     }
     
-    
+    .copyright{
+        white-space: nowrap;
+        width: 66%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+    }
     
     
 }
