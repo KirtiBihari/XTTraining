@@ -1,14 +1,37 @@
-.innercard_default__tags{
+.feature_icon{
+    width: 5em;
+    /* display: flex; */
+}
+.feature_icon img{
+    height: 4em;
+    width: 4em;
+    padding: .5em;
+}
+.feature_info{
+    width: calc(100% - 5em);
+    padding: 1.4em;
+}
+.feature_title{
+    font-weight: bold;
+}
+.feature_text{
+    
+}
+/* .innercard_tags{
     margin-bottom: 8px;
 
 }
-.innercard_default__title{
+
+.innercard_content{
+
+}
+.innercard_title{
     font: 1.25rem/1.5 "ubuntu-bd",Verdana,Arial,sans-serif;
     color: #2b0a3d
 }
-.innercard_default__text{
+.innercard_text{
     color: #000;
     font: 1rem/1.67 "ubuntu",Verdana,Arial,sans-serif;
     letter-spacing: .2px;
     margin: 16px 0 24px;
-}
+} */

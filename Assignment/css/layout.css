@@ -5,13 +5,30 @@ header{
 
 #page-content{
                     
-    height: 45em;
+    height: 45.3em;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 footer{
     background-color: #444;
-    height:2em;
+    height:1.5em;
     font-size: .8em;
     color: #ddd;
     padding: 0.6em 0.2em 0.2em 0.2em;
+}
+.mid-font{
+    font-size: 1.2em;
+}
+.small-font{
+    font-size: .9em;
+}
+.big-font{
+    font-size: 1.6em;
+}
+.center{
+    text-align: center;
+}
+.header-font-color{
+    color: #0384b1;
 }
